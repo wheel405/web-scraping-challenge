@@ -117,7 +117,7 @@ def scrape_info():
    # mars_data.columns = ["Description", "Value"]
     #mars_data = mars_data.set_index("Description", inplace = True)
     mars_facts = mars_data.to_html(index = True, header =True)
-    return mars_facts
+    #return mars_facts
 
 
 
